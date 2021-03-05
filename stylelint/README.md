@@ -12,6 +12,26 @@ yarn add -D stylelint stylelint-config-recommended
 
 Then you can use the `.stylelintrc.json` in your project.
 
+## Use with Prettier
+
+Stylelint could also be used with Prettier with `stylelint-prettier`.
+Install the plugin and prettier for usage:
+
+```
+yarn add -D stylelint-config-prettier stylelint-prettier prettier
+```
+
+Then, in your `.stylelintrc.json`:
+
+```
+{
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true
+  }
+}
+```
+
 ## Plugins
 
 Useful Plugins could be added, too:
