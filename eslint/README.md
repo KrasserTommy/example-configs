@@ -22,12 +22,12 @@ You can find some example configs for ESLint here. The configs uses also plugins
 
 Use the config for your project. There are following configs included:
 
-- [Javascript with Airbnb](javascript/airbnb/README.md)
-- [Javascript React with Airbnb](javascript/airbnb-react/README.md)
-- [Typescript](typescript/typescript-eslint/typescript-eslint/README.md)
-- [Typescript React](typescript/typescript-eslint/typescript-eslint-react/README.md)
-- [Typescript with Airbnb](typescript/airbnb/airbnb/README.md)
-- [Typescript React with Airbnb](typescript/airbnb/airbnb-react/README.md)
+- [Javascript with Airbnb](javascript/airbnb)
+- [Javascript React with Airbnb](javascript/airbnb-react)
+- [Typescript](typescript/typescript-eslint/typescript-eslint)
+- [Typescript React](typescript/typescript-eslint/typescript-eslint-react)
+- [Typescript with Airbnb](typescript/airbnb/airbnb)
+- [Typescript React with Airbnb](typescript/airbnb/airbnb-react)
 
 ### IDE Plugins
 
