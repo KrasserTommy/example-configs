@@ -1,6 +1,6 @@
 # ESLint config examples for JS, TS and React
 
-Here you can find some example configs for ESLint. The conifgs uses also plugins for `import` and in the case of React included `jsx-a11y`, `react` and `react-hooks`.
+You can find some example configs for ESLint here. The configs uses also plugins for `import` and in the case of React included `jsx-a11y`, `react` and `react-hooks`.
 
 > ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. [eslint.org](https://eslint.org/)
 
