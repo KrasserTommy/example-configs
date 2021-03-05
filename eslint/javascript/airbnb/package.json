@@ -2,7 +2,6 @@
   "name": "javascript-airbnb-config",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "private",
   "private": true,
   "devDependencies": {
     "eslint": "^7.2.0",

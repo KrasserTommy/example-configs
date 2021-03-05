@@ -175,6 +175,7 @@ There are a lot of more plugins, which could be helpful. They uses a hacky way s
 - [Linting rules for JSDoc](https://www.npmjs.com/package/eslint-plugin-jsdoc)
 - [Lint TSDoc comments](https://www.npmjs.com/package/eslint-plugin-tsdoc)
 - [Lint styled components](https://www.npmjs.com/package/eslint-plugin-styled-components-a11y)
+- [Lint MDX files](https://www.npmjs.com/package/eslint-plugin-mdx)
 
 ## Further reading
 

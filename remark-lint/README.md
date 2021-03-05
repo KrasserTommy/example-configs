@@ -1,34 +1,36 @@
-# Example stylelint config
+# Example remark-lint config
 
-> A mighty, modern linter that helps you avoid errors and enforce conventions in your styles. [stylelint](https://stylelint.io/)
+> Ensuring the Markdown you (and contributors) write is of great quality will
+> provide better rendering in all the different markdown parsers, and makes sure
+> less refactoring is needed afterwards. [remark-lint](https://stylelint.io/)
 
-- [Example stylelint config](#example-stylelint-config)
+- [Example remark-lint config](#example-remark-lint-config)
   - [Installation](#installation)
   - [Use with Prettier](#use-with-prettier)
   - [Plugins](#plugins)
 
 ## Installation
 
-First install stylelint and the standard configuration:
+First install `remark-lint` and the CLI with a preset for usage:
 
-```
-yarn add -D stylelint stylelint-config-recommended
+```sh
+yarn add -D unified remark-frontmatter remark-retext retext-english retext-syntax-urls retext-spell dictionary-en-us retext-sentence-spacing retext-repeated-words retext-usage remark-preset-lint-consistent remark-preset-lint-recommended remark-preset-lint-markdown-style-guide
 ```
 
-Then you can use the `.stylelintrc.json` in your project.
+Then you could use the `.remarkrc.js` config file.
 
 ## Use with Prettier
 
 Stylelint could also be used with Prettier with `stylelint-prettier`.
 Install the plugin and prettier for usage:
 
-```
+```sh
 yarn add -D stylelint-config-prettier stylelint-prettier prettier
 ```
 
 Then, in your `.stylelintrc.json`:
 
-```
+```sh
 {
   "plugins": ["stylelint-prettier"],
   "rules": {

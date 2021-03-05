@@ -2,7 +2,6 @@
   "name": "typescript-config",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "private",
   "private": true,
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.16.1",
