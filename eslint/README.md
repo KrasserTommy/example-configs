@@ -8,8 +8,7 @@ Here you can find some example configs for ESLint. The conifgs uses also plugins
   - [Usage](#usage)
     - [IDE Plugins](#ide-plugins)
   - [Useful commands](#useful-commands)
-    - [Plugins](#plugins)
-  - [Useful extensions](#useful-extensions)
+  - [Useful plugins](#useful-plugins)
     - [Jest](#jest)
     - [Node](#node)
     - [Promises](#promises)
@@ -39,9 +38,7 @@ Use the config for your project. There are following configs included:
 
 - `yarn eslint . --ext .js,.jsx,.ts,.tsx` to lint the code globally
 
-### Plugins
-
-## Useful extensions
+## Useful plugins
 
 There are some useful extensions for specific cases you could use:
 
