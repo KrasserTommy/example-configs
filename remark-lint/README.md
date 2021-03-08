@@ -6,8 +6,6 @@
 
 - [Example remark-lint config](#example-remark-lint-config)
   - [Installation](#installation)
-  - [Use with Prettier](#use-with-prettier)
-  - [Plugins](#plugins)
 
 ## Installation
 
@@ -18,33 +16,3 @@ yarn add -D unified remark-frontmatter remark-retext retext-english retext-synta
 ```
 
 Then you could use the `.remarkrc.js` config file.
-
-## Use with Prettier
-
-Stylelint could also be used with Prettier with `stylelint-prettier`.
-Install the plugin and prettier for usage:
-
-```sh
-yarn add -D stylelint-config-prettier stylelint-prettier prettier
-```
-
-Then, in your `.stylelintrc.json`:
-
-```sh
-{
-  "plugins": ["stylelint-prettier"],
-  "rules": {
-    "prettier/prettier": true
-  }
-}
-```
-
-## Plugins
-
-Useful Plugins could be added, too:
-
-- [Order properties](https://github.com/hudochenkov/stylelint-order)
-- [SCSS](https://github.com/kristerkari/stylelint-scss)
-- [SCSS Guidelines](https://github.com/bjankord/stylelint-config-sass-guidelines)
-- [styled components](https://github.com/styled-components/stylelint-processor-styled-components)
-- [styled components config](https://github.com/styled-components/stylelint-config-styled-components)

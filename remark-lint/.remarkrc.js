@@ -6,7 +6,7 @@ exports.plugins = [
       plugins: [
         require("retext-english"),
         require("retext-syntax-urls"),
-        [require("retext-spell"), require("dictionary-en-us")],
+        //[require("retext-spell"), require("dictionary-en-us")],
         [require("retext-sentence-spacing"), { preferred: 1 }],
         require("retext-repeated-words"),
         require("retext-usage"),

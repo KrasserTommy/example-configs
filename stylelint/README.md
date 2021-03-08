@@ -11,7 +11,7 @@
 
 First install stylelint and the standard configuration:
 
-```
+```sh
 yarn add -D stylelint stylelint-config-recommended
 ```
 
@@ -22,13 +22,13 @@ Then you can use the `.stylelintrc.json` in your project.
 Stylelint could also be used with Prettier with `stylelint-prettier`.
 Install the plugin and prettier for usage:
 
-```
+```sh
 yarn add -D stylelint-config-prettier stylelint-prettier prettier
 ```
 
 Then, in your `.stylelintrc.json`:
 
-```
+```json
 {
   "plugins": ["stylelint-prettier"],
   "rules": {

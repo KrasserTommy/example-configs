@@ -13,7 +13,7 @@ Here you can find an example config for prettier.
 
 ## Installation
 
-First install prettier with `yarn add -D prettier` and then use the [config]()
+First install prettier with `yarn add -D prettier` and then use the `pretterrc.json` config file.
 
 ### IDE Plugins
 

@@ -46,13 +46,13 @@ There are some useful extensions for specific cases you could use:
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-jest
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```json
 {
   "extends": ["plugin:jest/recommended"]
 }
@@ -62,21 +62,21 @@ Then add this to your `.eslintrc.js`
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-node
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```json
 {
-"extends": ["plugin:node/recommended"]
+  "extends": ["plugin:node/recommended"]
 }
 ```
 
 and this to your `package.json` (an example):
 
-```
+```json
 "engines": {
     "node": ">=8.10.0"
 }
@@ -86,13 +86,13 @@ and this to your `package.json` (an example):
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-promise
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```sh
 {
   "extends": ["plugin:promise/recommended"]
 }
@@ -104,13 +104,13 @@ The Unicorn Plugin has some very useful ESLint rules included for better code qu
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-unicorn
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```sh
 {
   "extends": ["plugin:unicorn/recommended"]
 }
@@ -122,20 +122,16 @@ The Unicorn Plugin has some very useful ESLint rules included for better code qu
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-css-modules
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```json
 {
-  "plugins": [
-    "css-modules"
-  ],
-  "extends": [
-    "plugin:css-modules/recommended"
-  ]
+  "plugins": ["css-modules"],
+  "extends": ["plugin:css-modules/recommended"]
 }
 ```
 
@@ -145,17 +141,15 @@ The eslint-comments plugin include additional rules for ESLint directive comment
 
 Install the plugin:
 
-```
+```sh
 yarn add --dev eslint-plugin-eslint-comments
 ```
 
 Then add this to your `.eslintrc.js`
 
-```
+```json
 {
-  "extends": [
-        "plugin:eslint-comments/recommended"
-  ]
+  "extends": ["plugin:eslint-comments/recommended"]
 }
 ```
 
